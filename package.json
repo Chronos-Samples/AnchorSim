@@ -1,0 +1,14 @@
+{
+  "name": "chronosanchoriothubdevicesimulator",
+  "version": "1.0.0",
+  "description": "Simulator of the Chronos Achor for IoTHub",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "azure-iot-device": "^1.17.6",
+    "azure-iot-device-mqtt": "^1.15.6"
+  },
+  "devDependencies": {}
+}
