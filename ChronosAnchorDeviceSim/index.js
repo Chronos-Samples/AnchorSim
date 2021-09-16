@@ -26,8 +26,9 @@ module.exports = async function (context, myTimer) {
     {
         var body = {
             timestamp: now.getTime(),
-            id:"SGFTDemo_ChronosTag_" + i,
-            value: 10 + (Math.random() * 20)
+            anchorId: "SGFTMTCAnchor" + i,
+            tagid:"SGFTDemo_ChronosTag_" + i,
+            tofvalue: 10 + (Math.random() * 20)
           };
         
         var messageBody = JSON.stringify(Object.assign({}, body));
